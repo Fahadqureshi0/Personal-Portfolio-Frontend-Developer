@@ -1,5 +1,5 @@
 
-## 🌟 Frontend Developer Portfolio
+## 🌟 Frontend Developer
 
 Welcome to my GitHub profile! I’m a passionate Frontend Developer focused on crafting beautiful and functional user experiences.
 
