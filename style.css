@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #2F3645;
+}
+
+
+.name h1{
+    align-items: start;
+    justify-content: start;
+    display: flex;
+    margin-top: 140px;
+    margin-left: 120vh;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+
+    
+}
+
+   .name p{
+    align-items: start;
+    justify-content: start;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 120vh;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    text-shadow: 200px;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    
+}
+
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    margin-left: 60vh;
+    border-radius: 160px;   
+
+}
+
+
+nav{
+    background-color:#2F3645;
+    color: white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+nav button{
+    margin-left: 5rem;
+    font-size: large;
+    cursor: pointer;
+    background-color: white;
+    color: black;    
+}   
+
+nav h2{
+    margin-left: 20px;
+ 
+}
+
+nav ul{
+    list-style: none;
+    align-items: center;
+    display: flex;
+    padding: 1rem;
+    margin: 0 20px;
+    justify-content: space-evenly;
+  
+}
+
+nav li{
+    margin: 0 20px;
+    padding: 2rem;
+    justify-content: space-evenly;    
+}
+
+.internships {
+    font-family: Arial, sans-serif; 
+    margin: 20px;
+}
+h2 {
+    color: white;
+}
+h4 {
+    color: #555;    margin-top: 0;
+}
+p {
+    line-height: 1.6; 
+    margin-bottom: 20px;
+    color: white;
+}
+u {
+    text-decoration: underline;
+}
+
+.My-Projects h2{
+    align-items: start;
+    justify-content: start;
+    display: flex;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: larger;
+    margin-left: 10px;
+    font-size: x-large;
+   
+
+}
+
+.My-Projects h2 :hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+   
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    
+}
+th {
+    background-color: #f2f2f2;
+}
+
+td{
+    color: black;
+    background-color: white;
+}
+
+.skillset{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-style: inherit;
+}
+
+.skillset h3{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.contact{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    align-items: end;
+    justify-content: end;
+    display: flex;
+    margin-right: 25px;
+}
+.Footer h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-container {
+    background-color: black;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
+    width: 310px;
+    margin-top: 200px;
+    margin-left: 560px;
+    margin-bottom: 70px;
+    cursor: pointer;
+  
+
+}
+
+.signup-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+
+.signup-container button{
+    background-color: white;
+}
+
+
+.footer-copy-right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    
+}
+
+
+/* Media Query */
+/* Large Tablets and Small Laptops */
+@media only screen and (max-width: 1200px) {
+    .name h1, .name p {
+        margin-left: 80vh; /* Adjust margin for smaller screens */
+        font-size: 32px; /* Adjust font size */
+    }
+
+    .signup-container {
+        width: 90%; /* Make signup form full-width */
+        margin-left: auto;
+        margin-right: auto; /* Center it */
+    }
+
+    nav ul {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    nav li {
+        padding: 1rem 0;
+    }
+}
+
+/* Tablets and Large Phones */
+@media only screen and (max-width: 992px) {
+    .name h1, .name p {
+        margin-left: 50vh; /* Further adjust margin */
+        font-size: 28px; /* Adjust font size */
+    }
+
+    img {
+        margin-left: 40vh; /* Adjust image position */
+        max-width: 80%; /* Adjust image size */
+    }
+
+    .signup-container {
+        width: 80%; /* Make signup form full-width */
+        margin-left: auto;
+        margin-right: auto; /* Center it */
+    }
+
+    nav ul {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    nav li {
+        padding: 1rem 0;
+    }
+}
+
+/* Portrait Tablets and Medium Phones */
+@media only screen and (max-width: 768px) {
+    .name h1, .name p {
+        margin-left: 20vh; /* Further adjust margin */
+        font-size: 24px; /* Adjust font size */
+    }
+
+    img {
+        margin-left: 20vh; /* Adjust image position */
+        max-width: 70%; /* Adjust image size */
+    }
+
+    .signup-container {
+        width: 70%; /* Make signup form full-width */
+        margin-left: auto;
+        margin-right: auto; /* Center it */
+    }
+
+    nav ul {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    nav li {
+        padding: 1rem 0;
+    }
+
+    .My-Projects h2 {
+        font-size: large;
+    }
+}
+
+/* Small Phones */
+@media only screen and (max-width: 576px) {
+    .name h1, .name p {
+        margin-left: 10vh; /* Further adjust margin */
+        font-size: 20px; /* Adjust font size */
+    }
+
+    img {
+        margin-left: 10vh; /* Adjust image position */
+        max-width: 60%; /* Adjust image size */
+    }
+
+    .signup-container {
+        width: 90%; /* Make signup form full-width */
+        margin-left: auto;
+        margin-right: auto; /* Center it */
+    }
+
+    nav ul {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    nav li {
+        padding: 0.5rem 0;
+    }
+
+    .My-Projects h2 {
+        font-size: medium;
+    }
+
+    .contact {
+        font-size: large;
+        justify-content: center;
+    }
+}
